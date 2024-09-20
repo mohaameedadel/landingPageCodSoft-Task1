@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Home() {
   return (
     <div className="h-screen home absolute top-[160px] md:top-[230px] lg:top-[160px] left-0 w-full -z-10">
