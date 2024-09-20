@@ -1,0 +1,24 @@
+.header {
+  position: relative;
+  width: fit-content;
+}
+
+.header::after {
+  content: "";
+  background: #c3c3c3;
+  width: 15%;
+  height: .3125rem;
+  position: absolute;
+  bottom: -1.25rem;
+  left: 50%;
+  -webkit-border-radius: 3.125rem;
+  -moz-border-radius: 3.125rem;
+  -ms-border-radius: 3.125rem;
+  -o-border-radius: 3.125rem;
+  border-radius: 3.125rem;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}

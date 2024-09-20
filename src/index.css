@@ -2,25 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-.home{
+.home {
   background-image: url("./assets/images/slide-1.jpg");
   background-size: cover;
   background-position: center center;
-
 }
-.home2{
+.home2 {
   background-image: url("./assets/images/slide-2.jpg");
   background-size: cover;
   background-position: center center;
-
 }
-.home3{
+.home3 {
   background-image: url("./assets/images/slide-3.jpg");
   background-size: cover;
   background-position: center center;
 }
 
+.feature {
+  background-image: linear-gradient(#001a578e 0% 100%),
+    url("./assets/images/2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}

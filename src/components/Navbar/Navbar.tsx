@@ -22,14 +22,18 @@ export default function Navbar() {
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   return (
     <>
-      <div className={`sticky  top-0 left-0 w-full z-[50] ${scrolled?"bg-main":""}`}>
+      <div
+        className={`sticky  top-0 left-0 w-full z-[50] ${
+          scrolled ? "bg-main" : ""
+        }`}
+      >
         <div className="container bg-main px-0 z-50">
           <nav className="px-0">
             <div className=" flex  flex-wrap items-center justify-between mx-auto p-4">
@@ -72,14 +76,15 @@ export default function Navbar() {
                       Home
                     </a>
                   </li>
+
                   <li>
-                    <a href="#about" className="block py-2   text-white ">
-                      About
+                    <a href="#services" className="block py-2  text-white ">
+                      Services
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="block py-2  text-white ">
-                      Services
+                    <a href="#about" className="block py-2   text-white ">
+                      About
                     </a>
                   </li>
                   <li>

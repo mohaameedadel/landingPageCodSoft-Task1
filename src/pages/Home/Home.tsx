@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="slider-container  w-full ">
+      <div id="home" className="slider-container w-full ">
         <Slider {...settings} className="h-full">
           <div className="home h-screen ">
             <div className="container flex items-center sm:items-start justify-center flex-col h-full text-center sm:text-start">
