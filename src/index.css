@@ -2,9 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth;
+}
+
 .home{
   background-image: url("./assets/images/slide-1.jpg");
   background-size: cover;
   background-position: center center;
 
 }
+.home2{
+  background-image: url("./assets/images/slide-2.jpg");
+  background-size: cover;
+  background-position: center center;
+
+}
+.home3{
+  background-image: url("./assets/images/slide-3.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
