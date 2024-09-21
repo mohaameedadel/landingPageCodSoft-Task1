@@ -50,14 +50,14 @@ export default function Navbar() {
                   <HiMenuAlt1 className="text-white text-xl" />
                 </button>
                 <div className="icons  flex justify-center items-center order-3 ">
-                  <TiSocialFacebook className="text-white me-1 cursor-pointer" />
-                  <TiSocialTwitter className="text-white me-1 cursor-pointer" />
-                  <TiSocialLinkedin className="text-white me-1 cursor-pointer" />
-                  <TiSocialPinterest className="text-white me-1 cursor-pointer" />
+                  <TiSocialFacebook className="text-white me-1 cursor-pointer hover:text-p duration-200 text-xl" />
+                  <TiSocialTwitter className="text-white me-1 cursor-pointer hover:text-p duration-200 text-xl" />
+                  <TiSocialLinkedin className="text-white me-1 cursor-pointer hover:text-p duration-200 text-xl" />
+                  <TiSocialPinterest className="text-white me-1 cursor-pointer hover:text-p duration-200 text-xl" />
                   <div className="px-4 py-4 border-x border-gray-400">
-                    <BsCartPlus className="text-white cursor-pointer" />
+                    <BsCartPlus className="text-white cursor-pointer hover:text-p duration-200 text-xl" />
                   </div>
-                  <CiSearch className="text-white ms-1 cursor-pointer" />
+                  <CiSearch className="text-white ms-1 cursor-pointer hover:text-p duration-200 text-xl" />
                 </div>
               </div>
               <div
@@ -70,7 +70,7 @@ export default function Navbar() {
                   <li>
                     <a
                       href="#home"
-                      className="block py-2   text-white "
+                      className="block py-2   text-white hover:text-p duration-200"
                       aria-current="page"
                     >
                       Home
@@ -78,27 +78,34 @@ export default function Navbar() {
                   </li>
 
                   <li>
-                    <a href="#services" className="block py-2  text-white ">
-                      Services
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#about" className="block py-2   text-white ">
+                    <a
+                      href="#about"
+                      className="block py-2 text-white hover:text-p duration-200 "
+                    >
                       About
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="block py-2 text-white ">
-                      Portfolio
+                    <a
+                      href="#services"
+                      className="block py-2 text-white hover:text-p duration-200 "
+                    >
+                      Services
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="block py-2   text-white ">
-                      Blog
+                    <a
+                      href="#team"
+                      className="block py-2 text-white hover:text-p duration-200 "
+                    >
+                      Team
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="block py-2   text-white ">
+                    <a
+                      href="#contact"
+                      className="block py-2 text-white hover:text-p duration-200 "
+                    >
                       Contact
                     </a>
                   </li>

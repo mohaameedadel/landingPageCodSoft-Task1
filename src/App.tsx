@@ -8,7 +8,12 @@ import "slick-carousel/slick/slick-theme.css";
 import { useEffect, useState } from "react";
 import Loading from "./components/Loading/Loading";
 import Services from "./pages/Services/Services";
-import FeatureBanner from "./pages/FeatureBanner/FeatureBanner";
+import FeatureBanner from "./components/FeatureBanner/FeatureBanner";
+import Team from "./pages/Team/Team";
+import Contact from "./pages/Contact/Contact";
+import OurPatern from "./components/OurPatern/OurPatern";
+import Footer from "./components/Footer/Footer";
+import CopyRight from "./components/CopyRight/CopyRight";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -27,9 +32,14 @@ function App() {
           <FirstNav />
           <Navbar />
           <Home />
-          <Services />
-          <FeatureBanner />
           <About />
+          <FeatureBanner />
+          <Services />
+          <Team />
+          <Contact />
+          <OurPatern />
+          <Footer />
+          <CopyRight />
         </>
       )}
     </>

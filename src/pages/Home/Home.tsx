@@ -29,7 +29,7 @@ export default function Home() {
                 SALES EFFICIENCY
               </h2>
               <a
-                href="#"
+                href="#contact"
                 type="button"
                 className="  text-lg py-2.5 px-5 mt-12  font-medium text-second focus:outline-none bg-white  hover:bg-gray-100 hover:text-second focus:z-10 focus:ring-4 focus:ring-gray-100 "
               >

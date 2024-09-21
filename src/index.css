@@ -28,3 +28,9 @@ html {
   background-size: cover;
   background-attachment: fixed;
 }
+
+#team {
+  background-image:linear-gradient(#ffffff71 0% 100%), url("./assets/images/9.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
